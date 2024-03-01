@@ -1,4 +1,8 @@
-let taxiFareApiUrl = 'http://localhost:8001/predict'; // replace with your API endpoint
+// script.js
+
+const taxiFareApiUrl = 'https://github.com/pedinoff/taxi-fare-interface/predict';
+
+//let taxiFareApiUrl = 'http://localhost:8001/predict'; // replace with your API endpoint
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
 if (window.location.href.includes('https://taxifare.lewagon.com')) {
